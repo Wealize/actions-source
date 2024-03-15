@@ -5,7 +5,7 @@ import express from 'express';
   // Ruta para obtener el JWK
   app.get('/jwk', (req, res) => {
     res.json({
-      "abc": "This is from the branch"
+      "abc": "This is from the branch example"
     });
   });
   // Iniciar el servidor
